@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(214, 206, 207);
+	background-color: rgb(230, 231, 236);
 	font-family: sans-serif;
 }
 
@@ -27,7 +27,7 @@ header::after {
 	text-align: center;
 }
 #logo {
-	width: 90%;
+	width: 100%;
 	margin: 83px auto 0px;
 }
 h1 {
@@ -38,7 +38,13 @@ h1 {
 	text-shadow:  1px 0 0 #000, 0 3px 0 #000, 0 -1px 0 #000, 0px 0 0 #000;;
 }
 span {
-	font-size: 30px;
+	font-size: 28px;
+}
+img#dswa {
+    height: 70px;
+    width: 88px;
+    position: absolute;
+    top: 78px;
 }
 							/* END OF HEADER CSS RULES */
 							/* START OF BANNER */
@@ -338,6 +344,20 @@ h5 {
 .container div {		/* Used to counter default block display for divs */
 	display: inline;
 }
+#gallery:before {
+	display: block;
+	content: "";
+	margin-top: -150px;
+	height: 150px;
+	visibility: hidden;
+}
+#landscape:before {
+	display: block;
+	content: "";
+	margin-top: -150px;
+	height: 150px;
+	visibility: hidden;
+}
 
 /* Contact Us page */
 
@@ -389,21 +409,6 @@ h6 {
 #contact a {
 	color: #0c76d2;
 }
-#gallery:before {
-	display: block;
-	content: "";
-	margin-top: -150px;
-	height: 150px;
-	visibility: hidden;
-}
-#landscape:before {
-	display: block;
-	content: "";
-	margin-top: -150px;
-	height: 150px;
-	visibility: hidden;
-}
-
 
 footer {
 	height: 50px;
