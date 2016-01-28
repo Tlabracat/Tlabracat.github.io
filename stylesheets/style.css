@@ -338,7 +338,7 @@ h5 {
 	color: #f1f1f1;
 }
 .img-thumbnail {			/* Make all thumbnail images an equal height */
-	height: 122px;
+	height: 200px;
 }
 
 .container div {		/* Used to counter default block display for divs */
