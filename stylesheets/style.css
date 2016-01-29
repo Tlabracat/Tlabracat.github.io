@@ -65,9 +65,9 @@ img#dswa {
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 35s slidy infinite; 
+  animation: 35s slider infinite; 
 }
-@keyframes slidy {
+@keyframes slider {
 0% { left: 0%; }
 20% { left: 0%; }
 25% { left: -100%; }
