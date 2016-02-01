@@ -9,9 +9,9 @@ header {
 }
 header::after {
 	content: "";
-	background: url(../images/header.jpg);
+	background: url(../images/newheader1.jpg);
 	background-repeat: no-repeat;
-	background-size: 100% 150%;
+	background-size: 100% 100%;
 	width: 100%;
 	position: absolute;
 	top: 0;
@@ -65,18 +65,16 @@ img#dswa {
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 35s slider infinite; 
+  animation: 30s infinite slider; 
 }
 @keyframes slider {
 0% { left: 0%; }
-20% { left: 0%; }
-25% { left: -100%; }
-45% { left: -100%; }
-50% { left: -200%; }
-70% { left: -200%; }
-75% { left: -300%; }
-95% { left: -300%; }
-100% { left: -400%; }
+28% { left: 0%; }
+33% { left: -100%; }
+61% { left: -100%; }
+66% { left: -200%; }
+95% { left: -200%; }
+100% { left: -300%; }
 }
 
 							/* START OF NAV RULES */
@@ -85,16 +83,7 @@ nav {
 	padding: 5px 0px;
 	position: absolute;
 	z-index: 1;
-	background: transparent;
-	 /* Fallback for web browsers that don't support RGBa */
-    background-color: rgb(0, 0, 0);
-    /* RGBa with 0.6 opacity */
-    background-color: rgba(37, 31, 31, 0.8);
-    /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
-    /* For IE 8*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
-
+    background-color: rgba(37, 31, 31, 0.8); 
 }
 .navFixed {
 	top: 0;
@@ -514,4 +503,8 @@ footer li {
 	#contact .glyphicon {
 		display: block;
 	}
+}
+
+@media	(max-width: 480px) {
+	
 }
