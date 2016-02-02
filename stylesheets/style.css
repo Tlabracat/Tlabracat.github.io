@@ -139,7 +139,7 @@ nav {
 						/* Section styling for whole page */
 section {
 	max-width: 1024px;
-	margin: 60px auto;
+	margin: 0px auto 60px;
 	padding: 5px;
 	text-align: center;
 }
@@ -150,10 +150,10 @@ section p {
    	color: #000000;
    	clear: both;
 }
-section ul {
+.examples {
 	list-style-type: none;
 }
-section li {
+.examples li {
 	font-size: 20px;
 	line-height: 35px;
 	font-family: sans-serif;
@@ -267,7 +267,7 @@ h3 {
 	text-align: center;
 	font-size: 44px;
 	font-family: Arial, sans-serif;
-	margin: 30px auto;
+	margin: 30px auto 60px;
 }
 
 						/* definition list for What We Do */
@@ -285,7 +285,7 @@ dd {
 	font-size: 20px;
 	font-family: sans-serif;
 	margin: 20px auto 40px;
-	padding: 0px 160px;
+	padding: 0px 90px;
 	text-align: left;
 }
 					/* Gallery */
@@ -405,7 +405,10 @@ footer li {
 		height: 550px;
 	}
 /* end of banner rules */
-
+	
+	section {
+		padding: 5px 70px;
+	}
 	section p {
 		font-size: 20px;
 	}
