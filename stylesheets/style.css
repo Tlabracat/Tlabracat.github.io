@@ -364,7 +364,7 @@ footer li {
 	color: rgb(208, 209, 210);
 }
 /* Styling for medium screens */
-@media (min-width: 481px) and (max-width: 1024px) {
+@media (min-width: 760px) and (max-width: 1024px) {
 
 	header {
 		height: 200px
@@ -434,7 +434,7 @@ footer li {
 
 }
 
-@media	(max-width: 480px) {
+@media	(min-width: 0px) and (max-width: 759px) {
 
 	header {
 		height: 150px
