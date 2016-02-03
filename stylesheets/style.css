@@ -148,7 +148,7 @@ section p {
     font-size: 22px;
     line-height: 33px;
    	color: #000000;
-   	clear: both;
+   	text-align: left;
 }
 .examples {
 	list-style-type: none;
@@ -157,7 +157,7 @@ section p {
 	font-size: 20px;
 	line-height: 35px;
 	font-family: sans-serif;
-	font-weight: lighter;
+
 }
 #first-section a {
 	font-family: Arial, sans-serif;
@@ -251,7 +251,7 @@ section p {
 	background-size: 105% 105%;
 }
 .flex3 {
-	background-image: url(../images/front-garden/4.jpg);
+	background-image: url(../images/front-garden/3.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 100% 100%;
@@ -431,5 +431,152 @@ footer li {
 }
 
 @media	(max-width: 480px) {
+
+	header {
+		height: 150px
+	}
+	header::after {
+		height: 150px;
+	}
+	#headerContent {
+		height: 150px;
+	}
+	#logo {
+		margin: 42px auto 0px;
+	}
+	h1 {
+		font-size: 24px;
+	}
+	img#dswa {
+		height: 26px;
+		width: 31px;
+		top: 68px;
+	}
+	span {
+		display: none;
+	}
+	#contact-details {
+		right: 10px;
+		top: 118px;
+	}
+	#contact-details h2 {
+		font-size: 12px;
+	}
+/* end of header rules */
+
+	.banner {
+		height: 300px;
+	}
+	.banner figure img {
+		height: 300px;
+	}
+	.mainNav ul {
+		padding: 0;
+	}
+	.mainNav li {
+		padding: 2px 4px;
+	}
+	.mainNav a {
+		padding: 0;
+		font-size: 14px;
+	}
+/* end of banner rules */
+
+	#devide {
+		height: 35px;
+	}
 	
+	section {
+		padding: 5px 20px;
+	}
+	section p {
+		font-size: 16px;
+	}
+	h3 {
+		font-size: 22px;
+		margin-bottom: 40px;
+	}
+	.ul-header {
+		font-size: 18px;
+	}
+	.examples {
+		padding: 0;
+	}
+	.examples li {
+		font-size: 16px;
+		line-height: 26px;
+		text-align: left;
+		padding-left: 30px;
+	}
+/* end of first section rules */
+
+	.portfolio_breaker1 {
+		min-height: 130px;
+		border-top: 10px solid rgb(37, 31, 31);
+		border-bottom: 10px solid rgb(37, 31, 31);
+	}
+	.portfolio_breaker1 h4 {
+		margin: 37px auto 10px;
+		font-size: 10px;
+	}
+	.portfolio_breaker1 a {
+		font-size: 10px;
+		padding: 3px;
+		border: 2px solid #f1f1f1;
+	}
+/* end of portfolio breaker rules */
+
+	dt {
+		font-size: 16px;
+	}
+	dd {
+		font-size: 14px;
+		padding: 0;
+	}
+/* end of What I Do section */
+
+	h4 {
+		font-size: 16px;
+		margin: 15px auto;
+	}
+	h5 {
+		font-size: 16px;
+		padding-top: 0;
+	}
+	.col-xs-3 {
+		padding: 1px;
+	}
+	.img-thumbnail {
+		height: 85px;
+		padding: 2px;
+		border: 0;
+	}
+/* end of gallery rules */
+
+	#contact .glyphicon {
+		font-size: 25px;
+		display: block;
+	}
+	h6 {
+		font-size: 16px;
+	}
+/* end of contact us rules */
+	
+	footer ul {
+		padding: 8px 0;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
