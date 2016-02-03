@@ -89,6 +89,7 @@ nav {
 	top: 0;
 	z-index: 1;
 	position: fixed;
+
 }
 .mainNav {
 	max-width: 1024px;
@@ -105,7 +106,7 @@ nav {
 }
 .mainNav a {
 	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
-	font-size: 20px;
+	font-size: 26px;
 	color: #ffffff;
 	text-align: left;
 	text-decoration: none;
@@ -132,7 +133,7 @@ nav {
 								/* Page Devide rule*/
 #devide {
 	width: 100%;
-	height: 44px;
+	height: 22px;
 	background-color: rgba(37, 31, 31, 1);
 }
 						/* End of banner */
@@ -189,8 +190,8 @@ section p {
 	flex-wrap: nowrap;
 	background-color: #333333;
 	overflow: hidden;
-	border-top: 20px solid rgba(37, 31, 31, 1);
-	border-bottom: 20px solid rgba(37, 31, 31, 1);
+	border-top: 10px solid rgba(37, 31, 31, 1);
+	border-bottom: 15px solid rgba(37, 31, 31, 1);
 }
 .portfolio_breaker1 li {
 	padding: 0;
@@ -397,7 +398,10 @@ footer li {
 		font-size: 18px;
 	}
 /* end of header rules */
-
+	
+	.mainNav a {
+		font-size: 22px;
+	}
 	.banner {
 		height: 550px;
 	}
@@ -483,7 +487,7 @@ footer li {
 /* end of banner rules */
 
 	#devide {
-		height: 35px;
+		height: 15px;
 	}
 	
 	section {
@@ -565,18 +569,4 @@ footer li {
 	footer ul {
 		padding: 8px 0 0;
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
