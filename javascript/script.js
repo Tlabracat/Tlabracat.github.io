@@ -2,12 +2,10 @@ $(document).ready(function() {
 	
 	$(window).scroll(function () {
 
-		console.log($(window).scrollTop());
-
-		if ($(window).scrollTop() > 310) {
+		if ($(window).scrollTop() > $("header").height()) {
 			$('nav').addClass('navFixed');
 		}
-		if ($(window).scrollTop() <311) {
+		if ($(window).scrollTop() < $("header").height()) {
 			$('nav').removeClass('navFixed');
 		}
 	});
